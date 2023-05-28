@@ -13,5 +13,5 @@ for d in range (0,W+1):
     view[0:H, W-d:W] = conan[0:H, 0:d]
     cv2.imshow("View", view)
     cv2.waitKey(1)
-
+print("hello)
 
